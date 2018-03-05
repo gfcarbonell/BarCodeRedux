@@ -1,0 +1,242 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "code": 1,
+      "name": "PC",
+      "dependence": "Logistica H.",
+      "headquarters": "Main H"
+    },
+    {
+      "id": 2,
+      "code": 2,
+      "name": "MOUSE",
+      "dependence": "Logistica H.",
+      "headquarters": "Main H"
+    },
+    {
+      "id": 3,
+      "code": 3,
+      "name": "TECLADO",
+      "dependence": "Logistica H.",
+      "headquarters": "Main H"
+    },
+    {
+      "id": 4,
+      "code": 4,
+      "name": "LAPTOP",
+      "dependence": "Sistemas H.",
+      "headquarters": "Main H"
+    },
+    {
+      "id": 5,
+      "code": 5,
+      "name": "MONITOR",
+      "dependence": "Sistemas H.",
+      "headquarters": "Main H"
+    },
+    {
+      "id": 6,
+      "code": 6,
+      "name": "ESTABILIZADOR",
+      "dependence": "Sistemas H.",
+      "headquarters": "Main H"
+    },
+    {
+      "name": "7",
+      "job": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 7
+    },
+    {
+      "name": "7",
+      "job": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 8
+    },
+    {
+      "name": "7",
+      "job": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 9
+    },
+    {
+      "name": "7",
+      "job": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 10
+    },
+    {
+      "name": "7",
+      "job": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 11
+    },
+    {
+      "name": "1",
+      "job": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 12
+    },
+    {
+      "code": "1541",
+      "name": "dsa",
+      "dependence": "ds",
+      "headquarter": "dsds",
+      "id": 13
+    },
+    {
+      "code": "145",
+      "name": "A",
+      "dependence": "A",
+      "headquarter": "A",
+      "id": 14
+    },
+    {
+      "code": "1",
+      "name": "1",
+      "dependence": "1",
+      "headquarter": "1",
+      "id": 15
+    },
+    {
+      "code": "8",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 16
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 17
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 18
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 19
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 20
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 21
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 22
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 23
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 24
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 25
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 26
+    },
+    {
+      "code": "8",
+      "name": "15",
+      "dependence": "",
+      "headquarter": "",
+      "id": 27
+    },
+    {
+      "code": "",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 28
+    },
+    {
+      "code": "",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 29
+    },
+    {
+      "code": "",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 30
+    },
+    {
+      "code": "",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 31
+    },
+    {
+      "code": "15",
+      "name": "xxx",
+      "dependence": "",
+      "headquarter": "",
+      "id": 32
+    },
+    {
+      "code": "",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 33
+    },
+    {
+      "code": "",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
+      "id": 34
+    }
+  ]
+}

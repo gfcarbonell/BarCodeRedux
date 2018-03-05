@@ -1,0 +1,6 @@
+Buscándote-Mike Bahía
+https://www.npmjs.com/package/jsbarcode
+https://www.npmjs.com/package/react-excel-workbook
+https://www.npmjs.com/package/convert-excel-to-json
+https://www.npmjs.com/package/react-redux-grid
+https://www.uno-de-piera.com/reactjs-con-redux/
