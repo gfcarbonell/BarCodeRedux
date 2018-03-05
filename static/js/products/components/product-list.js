@@ -12,7 +12,12 @@ class ProductList extends React.Component {
     if(this.props.products.length){
       return (
       this.props.products.map((products, index) => {
-          	return <li key={products.code}> {products.name} <span onClick={this.props.removeProduct}> x </span></li>
+          	return (
+              <li key={products.code}> {products.name}
+                <a onClick={this.props.removeProduct}> x </a>
+                <a href="bar_codes.html"> y </a>
+              </li>
+            )
           })
       )
     }

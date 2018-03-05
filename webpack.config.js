@@ -1,4 +1,5 @@
 const path = require("path");
+var webpack = require("webpack");
 
 module.exports = {
     entry: ["./static/js/main/routers.js"],
@@ -19,5 +20,11 @@ module.exports = {
                 }
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+        })
+    ]
 }
