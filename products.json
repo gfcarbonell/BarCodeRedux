@@ -2,80 +2,38 @@
   "products": [
     {
       "id": 1,
-      "code": 1,
+      "code": "0000000001",
       "name": "PC",
       "dependence": "Logistica H.",
       "headquarters": "Main H"
     },
     {
-      "id": 2,
-      "code": 2,
-      "name": "MOUSE",
-      "dependence": "Logistica H.",
-      "headquarters": "Main H"
-    },
-    {
-      "id": 3,
-      "code": 3,
+      "code": "0000000002",
       "name": "TECLADO",
-      "dependence": "Logistica H.",
-      "headquarters": "Main H"
+      "dependence": "MAIN",
+      "headquarter": "MAIN",
+      "id": 2
     },
     {
-      "id": 4,
-      "code": 4,
-      "name": "LAPTOP",
-      "dependence": "Sistemas H.",
-      "headquarters": "Main H"
+      "code": "0000000002",
+      "name": "MOUSE",
+      "dependence": "MAIN",
+      "headquarter": "MAIN",
+      "id": 3
     },
     {
-      "id": 5,
-      "code": 5,
+      "code": "0000000003",
       "name": "MONITOR",
-      "dependence": "Sistemas H.",
-      "headquarters": "Main H"
+      "dependence": "MAIN",
+      "headquarter": "MAIN",
+      "id": 4
     },
     {
-      "id": 6,
-      "code": 6,
-      "name": "ESTABILIZADOR",
-      "dependence": "Sistemas H.",
-      "headquarters": "Main H"
-    },
-    {
-      "code": "145",
-      "name": "MESA",
-      "dependence": "MESA",
-      "headquarter": "MESA",
-      "id": 7
-    },
-    {
-      "code": "12344",
-      "name": "SILLA",
-      "dependence": "",
-      "headquarter": "",
-      "id": 8
-    },
-    {
-      "code": "154654",
-      "name": "DSDS",
-      "dependence": "DSD",
-      "headquarter": "DSDS",
-      "id": 9
-    },
-    {
-      "code": "145",
-      "name": "LAPIZ",
-      "dependence": "S",
-      "headquarter": "S",
-      "id": 10
-    },
-    {
-      "code": "145",
-      "name": "VOROACHPOR",
-      "dependence": "A",
-      "headquarter": "A",
-      "id": 11
+      "code": "0000000003",
+      "name": "CARGADOR",
+      "dependence": "MAIN",
+      "headquarter": "MAIN",
+      "id": 5
     }
   ]
 }

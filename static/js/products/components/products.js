@@ -6,7 +6,6 @@ import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 import {Product} from "../actions";
 import {ProductList} from "./product-list";
-import {BarCode} from "./bar-code";
 
 
 const mapStateToProps = (state, props) => {
@@ -46,7 +45,7 @@ class ProductListContainer extends React.Component {
     e.preventDefault();
     var self = this;
     var data = {
-          code: self.refs.code.value,
+          code: this.addZeroLeftChain(self.refs.code.value, 10),
           name: self.refs.name.value,
           dependence: self.refs.dependence.value,
           headquarter: self.refs.headquarter.value,
@@ -54,25 +53,11 @@ class ProductListContainer extends React.Component {
     this.props.addProduct(data);
   }
 
-  handleRemove(e, id) {
-    e.preventDefault();
-    var self = this;
-    alert("ok");
-  }
-
-  addBarCodes(e){
-    this.props.products.map((item, index)=>{
-       $("#barcodes").append("<img id=" + item.code + " />");
-       $("#" + item.code).JsBarcode(item.name, {displayValue:true,fontSize:20});
-    });
-
-    /*
-    for (var i = 0; i < this.props.products.length; i++) {
-       $("#barcodes").append("<img id=" + this.props.products[i].code + " />");
-    }
-    for (var i = 0; i < this.props.products.length; i++) {
-       $("#" + this.props.products[i].code).JsBarcode(this.props.products[i].name, {displayValue:true,fontSize:20});
-    }*/
+  addZeroLeftChain(chain, number){
+    if (number === 0 || number < 0) return object
+    while (chain.length<number)
+      chain = '0' + chain;
+    return chain;
   }
 
   render() {
@@ -81,16 +66,21 @@ class ProductListContainer extends React.Component {
         <div>
             <div>
                 <form method="post" onSubmit={this.handleSubmit.bind(this)}>
-                  <input type="text" placeholder="Code" ref="code"/>
-                  <input type="text" placeholder="Name" ref="name"/>
-                  <input type="text" placeholder="Dependence" ref="dependence"/>
-                  <input type="text" placeholder="Headquarters" ref="headquarter"/>
-                  <input type="submit" />
+                    <input type="number" placeholder="Code" ref="code"/>
+                    <input type="text" placeholder="Name" ref="name"/>
+                    <input type="text" placeholder="Dependence" ref="dependence"/>
+                    <input type="text" placeholder="Headquarters" ref="headquarter"/>
+                    <input type="submit" />
                 </form>
             </div>
-            <button onClick={this.addBarCodes.bind(this)}> click Me </button>
             <div id="barcodes">
-
+            {
+                  this.props.products.map((item, index) => {
+                      $("#barcodes").append("<img id=" + item.code + " />");
+                      $("#" + item.code).JsBarcode(item.name, {displayValue:true,fontSize:20});
+                      return null
+                  })
+            }
             </div>
         </div>
       );
