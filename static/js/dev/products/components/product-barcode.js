@@ -23,7 +23,7 @@ const mapDispatchToProps = (dispatch, props) => {
 }
 
 
-class ProductListContainer extends React.Component {
+class ProductBarcode extends React.Component {
 
   constructor(){
     super();
@@ -45,7 +45,7 @@ class ProductListContainer extends React.Component {
     e.preventDefault();
     var self = this;
     var data = {
-          code: this.addZeroLeftChain(self.refs.code.value, 10),
+          code: this.addZeroLeftChain(self.refs.code.value, 13),
           name: self.refs.name.value,
           dependence: self.refs.dependence.value,
           headquarter: self.refs.headquarter.value,
@@ -61,23 +61,13 @@ class ProductListContainer extends React.Component {
   }
 
   render() {
-
       return (
         <div>
-            <div>
-                <form method="post" onSubmit={this.handleSubmit.bind(this)}>
-                    <input type="number" placeholder="Code" ref="code"/>
-                    <input type="text" placeholder="Name" ref="name"/>
-                    <input type="text" placeholder="Dependence" ref="dependence"/>
-                    <input type="text" placeholder="Headquarters" ref="headquarter"/>
-                    <input type="submit" />
-                </form>
-            </div>
             <div id="barcodes">
             {
                   this.props.products.map((item, index) => {
                       $("#barcodes").append("<img id=" + item.code + " />");
-                      $("#" + item.code).JsBarcode(item.name, {displayValue:true,fontSize:20});
+                      $("#" + item.code).JsBarcode(item.code, {displayValue:true, fontSize:20});
                       return null
                   })
             }
@@ -88,4 +78,4 @@ class ProductListContainer extends React.Component {
 }
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProductListContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductBarcode);

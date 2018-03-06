@@ -2,38 +2,52 @@
   "products": [
     {
       "id": 1,
-      "code": "0000000001",
+      "code": "1234567890128",
       "name": "PC",
       "dependence": "Logistica H.",
       "headquarters": "Main H"
     },
     {
-      "code": "0000000002",
-      "name": "TECLADO",
-      "dependence": "MAIN",
-      "headquarter": "MAIN",
-      "id": 2
+      "id": 2,
+      "code": "1234567890128",
+      "name": "PC",
+      "dependence": "Logistica H.",
+      "headquarters": "Main H"
     },
     {
-      "code": "0000000002",
-      "name": "MOUSE",
-      "dependence": "MAIN",
-      "headquarter": "MAIN",
+      "code": "0000000000000",
+      "name": "",
+      "dependence": "",
+      "headquarter": "",
       "id": 3
     },
     {
-      "code": "0000000003",
-      "name": "MONITOR",
-      "dependence": "MAIN",
+      "code": "0000000000012",
+      "name": "TABLET",
+      "dependence": "LOGISTICA",
       "headquarter": "MAIN",
       "id": 4
     },
     {
-      "code": "0000000003",
-      "name": "CARGADOR",
-      "dependence": "MAIN",
+      "code": "0000000000012",
+      "name": "TABLET",
+      "dependence": "LOGISTICA",
       "headquarter": "MAIN",
       "id": 5
+    },
+    {
+      "code": "0000000000015",
+      "name": "tecla",
+      "dependence": "",
+      "headquarter": "",
+      "id": 6
+    },
+    {
+      "code": "0000000000015",
+      "name": "tecla",
+      "dependence": "",
+      "headquarter": "",
+      "id": 7
     }
   ]
 }

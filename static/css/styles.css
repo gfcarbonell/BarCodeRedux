@@ -1,0 +1,25 @@
+@import "../css/materialize.min.css";
+img {
+  vertical-align: top;
+}
+.containerImage {
+  margin: 0;
+}
+.display-block {
+  display: block;
+}
+.margin-right {
+  margin: 0 0 0 auto;
+}
+.margin-left-right {
+  margin: 0 auto;
+}
+.margin-0 {
+  margin: 0;
+}
+.padding {
+  padding: 0.5em;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}

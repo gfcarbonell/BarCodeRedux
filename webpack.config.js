@@ -2,7 +2,7 @@ const path = require("path");
 var webpack = require("webpack");
 
 module.exports = {
-    entry: ["./static/js/main/routers.js"],
+    entry: ["./static/js/dev/main/routers.js"],
     output: {
         path: path.resolve(__dirname, "./static/js"),
         filename: "bundle.js"
@@ -23,8 +23,10 @@ module.exports = {
     },
     plugins: [
         new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery"
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.$': 'jquery',
+            'window.jQuery': 'jquery',
         })
     ]
 }

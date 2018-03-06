@@ -29,7 +29,7 @@ class Product {
     };
   }
 
-  static getProductById (name) {
+  static getProductByName (name) {
     return (dispatch) => {
       return axios.get(`${ROOT_URL}/products/?name=${name}`)
         .then(response => {
