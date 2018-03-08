@@ -5,7 +5,7 @@ import "jsbarcode";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 import {Product} from "../actions";
-import {ProductList} from "./product-list";
+
 
 
 const mapStateToProps = (state, props) => {

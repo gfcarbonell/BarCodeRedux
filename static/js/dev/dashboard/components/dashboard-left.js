@@ -2,6 +2,8 @@
 import React from "react";
 import $ from "jquery";
 import "materialize-css";
+import { Link, browserHistory } from 'react-router'
+
 
 
 class DashboardLeft extends React.Component {
@@ -29,15 +31,21 @@ class DashboardLeft extends React.Component {
             <div class="container" >
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
-                      <div class="collapsible-header"><i class="material-icons">note_add</i> Products </div>
+                      <div class="collapsible-header" onClick={() => browserHistory.push('/dashboard/barcodes')}>
+                              <i class="material-icons">note_add</i> Products
+                      </div>
+                      <div class="collapsible-body"><span> You can to do any operation </span></div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header">
+                              <i class="material-icons">import_export</i> Import File
+                      </div>
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="material-icons">import_export</i> Import File </div>
-                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-                    </li>
-                    <li>
-                      <div class="collapsible-header"><i class="material-icons">print</i> Print Barcodes </div>
+                      <div class="collapsible-header">
+                              <i class="material-icons">print</i> Print Barcodes
+                      </div>
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                   </ul>

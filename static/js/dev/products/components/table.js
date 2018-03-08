@@ -1,33 +1,39 @@
-import React from 'react';
-import {
-  Table,
-  TableBody,
-  TableHeader,
-  TableHeaderColumn,
-  TableRow,
-  TableRowColumn,
-} from 'material-ui/Table';
+"use strict";
+import React from "react";
+import $ from "jquery";
 
-/**
- * A simple table demonstrating the hierarchy of the `Table` component and its sub-components.
- */
-const TableExampleSimple = () => (
-  <Table>
-    <TableHeader>
-      <TableRow>
-        <TableHeaderColumn>ID</TableHeaderColumn>
-        <TableHeaderColumn>Name</TableHeaderColumn>
-        <TableHeaderColumn>Status</TableHeaderColumn>
-      </TableRow>
-    </TableHeader>
-    <TableBody>
-      <TableRow>
-        <TableRowColumn>1</TableRowColumn>
-        <TableRowColumn>John Smith</TableRowColumn>
-        <TableRowColumn>Employed</TableRowColumn>
-      </TableRow>
-    </TableBody>
-  </Table>
-);
 
-export default TableExampleSimple;
+
+class TableCustom extends React.Component {
+
+  constructor(props){
+    super(props);
+  }
+
+  componentWillMount(){
+
+  }
+  componentDidMount(){
+    /*$("#table")
+      .css({"width":"100%"});
+*/
+  }
+
+  render() {
+    console.log(this.props.data);
+    let data = this.props.data;
+    let columns = [
+      "Id",
+      "Code",
+      "Name",
+      "Dependence",
+      "Headquarter"
+    ]
+    return (
+        <div>
+            <ReactTable columns={columns} data={data} paginate={true} items_by_page={10}/>
+        </div>
+    )
+  }
+}
+export {TableCustom}
