@@ -2,8 +2,7 @@
 import React from "react";
 import $ from "jquery";
 import "materialize-css";
-import { Link, browserHistory } from 'react-router'
-
+import {Link, Router} from "react-redux"
 
 
 class DashboardLeft extends React.Component {
@@ -31,8 +30,11 @@ class DashboardLeft extends React.Component {
             <div class="container" >
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
-                      <div class="collapsible-header" onClick={() => browserHistory.push('/dashboard/barcodes')}>
-                              <i class="material-icons">note_add</i> Products
+                    <Router>
+                    <Link key={1} to={"ok"}> xxx </Link>
+                    </Router>
+                      <div class="collapsible-header">
+                            <i class="material-icons">note_add</i> Products
                       </div>
                       <div class="collapsible-body"><span> You can to do any operation </span></div>
                     </li>
@@ -49,6 +51,9 @@ class DashboardLeft extends React.Component {
                       <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
                     </li>
                   </ul>
+                  <div>
+                      <button onClick={() => browserHistory.push('/dashboard/barcodes')}>Go to /foo</button>
+                  </div>
             </div>
         </div>
 
