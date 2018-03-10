@@ -17,7 +17,6 @@ const mapStateToProps = (state, props) => {
 const mapDispatchToProps = (dispatch, props) => {
   const actions = {
     loadProducts: bindActionCreators(Product.loadProducts, dispatch),
-    addProduct: bindActionCreators(Product.addProduct, dispatch),
   };
   return actions;
 }
@@ -30,34 +29,10 @@ class ProductBarcode extends React.Component {
     this.state = {
       loading: true,
     };
-
   }
 
   componentWillMount() {
     this.props.loadProducts();
-  }
-
-  componentWillUnmount(){
-    this.unsubscribe();
-  }
-
-  handleSubmit(e) {
-    e.preventDefault();
-    var self = this;
-    var data = {
-          code: this.addZeroLeftChain(self.refs.code.value, 13),
-          name: self.refs.name.value,
-          dependence: self.refs.dependence.value,
-          headquarter: self.refs.headquarter.value,
-        }
-    this.props.addProduct(data);
-  }
-
-  addZeroLeftChain(chain, number){
-    if (number === 0 || number < 0) return object
-    while (chain.length<number)
-      chain = '0' + chain;
-    return chain;
   }
 
   render() {

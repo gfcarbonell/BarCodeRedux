@@ -8,7 +8,6 @@ class DashboardHeader extends React.Component {
 
   constructor(props){
     super(props);
-    this.props.BACKGROUND += " nav-wrapper";
   }
 
   componentDidMount(){
@@ -16,10 +15,11 @@ class DashboardHeader extends React.Component {
   }
 
   render(){
+    let background = this.props.BACKGROUND + " nav-wrapper";
     return(
       <header>
           <nav>
-              <div className={this.props.BACKGROUND}>
+              <div className={background}>
                 <a href="#!" className="brand-logo">Q.G.</a>
                 <a href="#" data-activates="mobile-demo" className="button-collapse"><i className="material-icons">menu</i></a>
                 <ul className="right hide-on-med-and-down">

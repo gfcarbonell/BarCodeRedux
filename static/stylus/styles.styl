@@ -1,9 +1,12 @@
 @import "../css/materialize.min.css"
-@import "./normalize.styl"
+@import "./react-table.styl"
 
-
+div
+ul
+body
 img
   vertical-align top
+  box-sizing border-box
 
 .containerImage
   margin 0
@@ -23,8 +26,17 @@ img
 .padding
   padding .5em
 
+.padding-up-down
+  padding .5em 0
+
 .text-uppercase
   text-transform uppercase
+
+.border-gray
+  border 0 0 0 1px
+
+.border-green
+  border 2px dashed #9ccc65
 
 /* UL padding override - see https://github.com/Dogfalo/materialize/issues/2786#issuecomment-234809753  */
 ul { padding-left: 20px; }

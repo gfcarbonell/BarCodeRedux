@@ -8,7 +8,7 @@ class BarcodeImage extends React.Component {
   }
 
   render (){
-    return <img id={props.id} alt={props.name} />
+    return <p> Loading ... </p>
   }
 
 }

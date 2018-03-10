@@ -21,8 +21,8 @@ class DashboardFooter extends React.Component {
             <ul>
               <li><a className="grey-text text-lighten-3" href="#!">Facebook</a></li>
               <li><a className="grey-text text-lighten-3" href="#!">Twitter</a></li>
-              <li><a className="grey-text text-lighten-3" href="#!">Youtube 3</a></li>
-              <li><a className="grey-text text-lighten-3" href="#!">Instagram 4</a></li>
+              <li><a className="grey-text text-lighten-3" href="#!">Youtube</a></li>
+              <li><a className="grey-text text-lighten-3" href="#!">Instagram</a></li>
             </ul>
           }
           className={this.props.BACKGROUND}>
