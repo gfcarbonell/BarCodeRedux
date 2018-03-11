@@ -346,6 +346,31 @@ img {
   vertical-align: top;
   box-sizing: border-box;
 }
+.bar {
+  background-color: #f3f3f3;
+  border-radius: 0.5em;
+  box-shadow: inset;
+  height: 25px;
+}
+.bar >span {
+  color: #fff;
+  font-weight: bold;
+  line-height: 25px;
+}
+.blue-background-bar {
+  background-color: #247cc0;
+  border-radius: 0.1em;
+  line-height: 25px;
+  height: 25px;
+  text-align: center;
+  width: 0%;
+}
+.green-background {
+  background: #008000;
+}
+.red-background {
+  background: #f00;
+}
 .containerImage {
   margin: 0;
 }

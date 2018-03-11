@@ -8,7 +8,7 @@ import ProductList from "./components/products";
 import {BarcodeImage} from "./components/barcode-image";
 import ProductBarcode from "./components/product-barcode";
 import ProductAdd from "./components/product-add";
-import {Accept} from "./components/product-file";
+import Accept from "./components/product-file";
 import {Route, Switch} from 'react-router-dom';
 
 class DashboardProduct extends React.Component {

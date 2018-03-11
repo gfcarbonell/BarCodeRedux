@@ -1,7 +1,9 @@
 "use strict";
 import axios from "axios";
-import {PRODUCTS, ADD_PRODUCT} from "./actions-types";
+import $ from "jquery";
+import {PRODUCTS, ADD_PRODUCT, FILE_EXCEL_PRODUCT} from "./actions-types";
 const ROOT_URL = 'http://localhost:3000'
+const ROOT_URL_NODE = 'http://localhost:8000'
 
 class Product {
 
@@ -43,9 +45,33 @@ class Product {
 
   static addProduct(product){
     return (dispatch) => {
-      return axios.post(`${ROOT_URL}/products`, product, 'Content-Type': 'application/json')
+      return axios.post(`${ROOT_URL}/products`, product, )
         .then(response => {
           dispatch({ type: ADD_PRODUCT, product: response.data});
+        })
+        .catch(error => {
+          console.log(error)
+        });
+    };
+  }
+
+  static addFileExcel(excel){
+    console.log(excel);
+    return (dispatch) => {
+      return axios.post(`${ROOT_URL_NODE}/dashboard/barcodes/import`,
+            excel,
+            {
+              headers: {
+                  'Content-Type': 'multipart/form-data'
+              },
+              onUploadProgress: (e) => {
+                  console.log("evento pregress");
+                  console.log(parseInt( Math.round( ( e.loaded * 100 ) / e.total ) ));
+              }
+            }
+        )
+        .then(response => {
+          dispatch({ type: FILE_EXCEL_PRODUCT, excel: response.data});
         })
         .catch(error => {
           console.log(error)

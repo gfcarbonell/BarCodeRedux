@@ -3,18 +3,64 @@ import React, { Component } from 'react';
 import $ from "jquery";
 import "materialize-css";
 import Dropzone from 'react-dropzone';
-import excelToJson from 'convert-excel-to-json';
+import Files from 'react-files';
+import {Product} from "../actions";
+import {bindActionCreators} from "redux";
+import {connect} from "react-redux";
+
+
+const mapStateToProps = (state, props) => {
+  return {
+    file: state.productReducer,
+  }
+}
+
+const mapDispatchToProps = (dispatch, props) => {
+  const actions = {
+    addFileExcel : bindActionCreators(Product.addFileExcel, dispatch),
+  };
+  return actions;
+}
+
 
 class Accept extends React.Component {
   constructor() {
     super()
-    this.state = {
-      accepted: [],
-      rejected: []
-    }
   }
   componentDidMount(){
     $(".input-field :input").attr("disabled", true);
+  }
+
+  onFilesChange(e) {
+    $(".input-field :input").attr("disabled", false);
+  }
+
+  onFilesError(error, file) {
+    console.log('error code ' + error.code + ': ' + error.message)
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    let self = this;
+    let file = self.refs.file_excel;
+
+    var formData = new FormData();
+    formData.set("code", self.refs.code.value);
+    formData.set("name", self.refs.name.value);
+    formData.set("dependence", self.refs.dependence.value);
+    formData.set("headquarter", self.refs.headquarter.value);
+    formData.set("file", file.state.files[0]);
+
+    let data = {
+      "code": self.refs.code.value,
+      "name": self.refs.name.value,
+      "dependence": self.refs.dependence.value,
+      "headquarter": self.refs.headquarter.value,
+      "file": file.state.files[0]
+    }
+
+    console.log(data);
+    this.props.addFileExcel(formData);
   }
 
   render() {
@@ -24,53 +70,38 @@ class Accept extends React.Component {
             <div>
               <h3 className="center-align"> Import File Excel </h3>
             </div>
-            <form method="post" >
+            <form method="post"
+                  ref="form"
+                  enctype="multipart/form-data"
+                  onSubmit={this.handleSubmit.bind(this)}>
               <div class="card horizontal">
                   <div class="card-stacked">
-
-                      <Dropzone
-                        className="padding-up-down card-content "
-                        accept="application/vnd.ms-excel"
-                        onDrop={(accepted, rejected) => {
-
-                          $(".input-field :input").attr("disabled", false);
-
-
-                          accepted.forEach(file => {
-                                 const reader = new FileReader();
-                                 reader.onload = () => {
-                                     const fileAsBinaryString = reader.result;
-                                    console.log(fileAsBinaryString);
-                                 };
-                                 reader.onabort = () => console.log('file reading was aborted');
-                                 reader.onerror = () => console.log('file reading has failed');
-
-                                 reader.readAsDataURL(file);
-                             });
-
-                            this.setState({ accepted, rejected });
-                        }}
-                      >
-                          <p className="center-align "> <i class="material-icons large"> attach_file </i></p>
-                      </Dropzone>
-                      <div class="card-action center-align light-green lighten-3">
-
+                      <div className="files">
+                        <Files
+                          name="file_excel"
+                          ref="file_excel"
+                          className='files-dropzone files-dropzone-active'
+                          onChange={this.onFilesChange.bind(this)}
+                          onError={this.onFilesError.bind(this)}
+                          accepts={["application/vnd.ms-excel"]}
+                          maxFiles={1}
+                          maxFileSize={10000000}
+                          minFileSize={0}
+                          clickable
+                        >
+                          Drop files here or click to upload
+                        </Files>
+                      </div>
+                      <div className="center-align bar">
+                            <div className="blue-background-bar" id="green_bar">
+                                <span> </span>
+                            </div>
                       </div>
                   </div>
               </div>
+
               <div className="container">
                     <h6>Accepted files</h6>
-                    <ul>
-                      {
-                        this.state.accepted.map(f => <li key={f.name}>{f.name}  - {f.size} bytes</li>)
-                      }
-                    </ul>
-                    <h6>Rejected files</h6>
-                    <ul>
-                      {
-                        this.state.rejected.map(f => <li key={f.name}>{f.name} - {f.size} bytes</li>)
-                      }
-                    </ul>
               </div>
               <div>
                   <div className="row">
@@ -102,7 +133,7 @@ class Accept extends React.Component {
                   </div>
                   <div className="row">
                       <div className="input-field col s12 m12 l12">
-                          <button class="display-block red margin-right btn waves-effect waves-light disable" type="submit" id="submit" name="action">Submit
+                          <button class="display-block green margin-right btn waves-effect waves-light disable" type="submit" id="submit" name="action">Submit
                               <i class="material-icons right">send</i>
                           </button>
                       </div>
@@ -116,4 +147,4 @@ class Accept extends React.Component {
   }
 }
 
-export {Accept}
+export default connect(mapStateToProps, mapDispatchToProps)(Accept)
