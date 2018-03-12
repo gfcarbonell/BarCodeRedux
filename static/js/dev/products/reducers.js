@@ -1,5 +1,5 @@
 "use strict";
-import {PRODUCTS, ADD_PRODUCT, REMOVE_PRODUCT} from "./actions-types";
+import {PRODUCTS, ADD_PRODUCT, REMOVE_PRODUCT, FILE_EXCEL_PRODUCT} from "./actions-types";
 import {Product} from "./actions";
 
 
@@ -22,6 +22,10 @@ const productReducer = (state = {}, action) =>
           ...state,
           action.product
         ];
+        break;
+    case FILE_EXCEL_PRODUCT:
+        console.log(action.excel);
+        return action.excel;
         break;
     case REMOVE_PRODUCT:
         return state.products.filter(product => product.id !== action.product.id);
