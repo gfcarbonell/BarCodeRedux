@@ -38,6 +38,8 @@ class Accept extends React.Component {
 
                           accepted.forEach(file => {
                                  const reader = new FileReader();
+                                 console.log(file.name);
+                                 
                                  reader.onload = () => {
                                      const fileAsBinaryString = reader.result;
                                     console.log(fileAsBinaryString);
