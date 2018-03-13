@@ -8,13 +8,20 @@ const ROOT_URL_NODE = 'http://localhost:8000'
 class Product {
 
   static loadProducts () {
+
     return (dispatch) => {
+
+      //Begin Request
+      dispatch({type: "FETCH_REQUEST"});
+
       return axios.get(`${ROOT_URL}/products`)
         .then(response => {
-          dispatch({ type: PRODUCTS, products: response.data});
+          //Success Request
+          dispatch({ type: "FETCH_SUCCESS", products: response.data });
         })
         .catch(error => {
-          console.log(error);
+          //Error Request
+          dispatch({type: "FETCH_ERROR", error:error})
         });
     };
   }

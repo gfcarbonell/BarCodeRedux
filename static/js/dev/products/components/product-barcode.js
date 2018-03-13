@@ -10,7 +10,7 @@ import {Product} from "../actions";
 
 const mapStateToProps = (state, props) => {
   return {
-    products: state.productReducer,
+    products: state.productReducer.products,
   }
 }
 

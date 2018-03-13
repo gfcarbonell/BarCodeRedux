@@ -117,7 +117,7 @@ class Accept extends React.Component {
                   <div className="row">
                     <legend> <i className="material-icons prefix">assessment</i> Sheet :</legend>
                     <div className="input-field col s12 m12 l12">
-                        <input id="sheet" type="text" className="validate" ref="sheet" />
+                        <input id="sheet" type="text" required className="validate" ref="sheet" />
                         <label for="sheet">Name Sheet</label>
                     </div>
                   </div>
@@ -128,11 +128,11 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                         <legend> <i className="material-icons prefix">code</i> Column Code :</legend>
                         <div className="input-field col s12 m4 l4">
-                            <input id="letter_column_code" type="text" className="validate text-uppercase" ref="letter_column_code" />
+                            <input id="letter_column_code" required type="text" className="validate text-uppercase" ref="letter_column_code" />
                             <label for="letter_column_code"> Letter </label>
                         </div>
                         <div className="input-field col s12 m8 l8">
-                            <input id="name_column_code" type="text" className="validate" ref="name_column_code" />
+                            <input id="name_column_code" required type="text" className="validate" ref="name_column_code" />
                             <label for="name_column_code"> Name </label>
                         </div>
                       </div>
@@ -142,11 +142,11 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                           <legend> <i className="material-icons prefix">developer_board</i> Column Name :</legend>
                           <div className="input-field col s12 m4 l4">
-                              <input id="letter_column_name" type="text" className="validate text-uppercase" ref="letter_column_name" />
+                              <input id="letter_column_name" required type="text" className="validate text-uppercase" ref="letter_column_name" />
                               <label for="letter_column_name"> Letter </label>
                           </div>
                           <div className="input-field col s12 m8 l8">
-                              <input id="name_column_name" type="text" className="validate" ref="name_column_name" />
+                              <input id="name_column_name" required type="text" className="validate" ref="name_column_name" />
                               <label for="name_column_name"> Name </label>
                           </div>
                       </div>
@@ -158,11 +158,11 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                         <legend> <i className="material-icons prefix">home</i> Column Dependence :</legend>
                         <div className="input-field col s12 m4 l4">
-                            <input id="letter_column_dependence" type="text" className="validate text-uppercase" ref="letter_column_dependence" />
+                            <input id="letter_column_dependence" required type="text" className="validate text-uppercase" ref="letter_column_dependence" />
                             <label for="letter_column_dependence"> Letter </label>
                         </div>
                         <div className="input-field col s12 m8 l8">
-                            <input id="name_column_dependence" type="text" className="validate" ref="name_column_dependence" />
+                            <input id="name_column_dependence" required type="text" className="validate" ref="name_column_dependence" />
                             <label for="name_column_dependence"> Name </label>
                         </div>
                       </div>
@@ -172,11 +172,11 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                         <legend><i className="material-icons prefix">business</i>  Column Headquarter :</legend>
                         <div className="input-field col s12 m4 l4">
-                            <input id="letter_column_headquarter" type="text" className="validate text-uppercase" ref="letter_column_headquarter" />
+                            <input id="letter_column_headquarter" required type="text" className="validate text-uppercase" ref="letter_column_headquarter" />
                             <label for="letter_column_headquarter"> Letter </label>
                         </div>
                         <div className="input-field col s12 m8 l8">
-                            <input id="name_column_headquarter" type="text" className="validate" ref="name_column_headquarter" />
+                            <input id="name_column_headquarter" required type="text" className="validate" ref="name_column_headquarter" />
                             <label for="name_column_headquarter"> Name </label>
                         </div>
                       </div>

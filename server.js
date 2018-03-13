@@ -4,6 +4,8 @@ var app = express();
 var fs = require("fs");
 var bodyParser = require("body-parser");
 var formidable = require("express-form-data");
+var axios = require("axios");
+
 
 var util = require("./utils.js");
 const excelToJson = require('convert-excel-to-json');
@@ -53,6 +55,7 @@ app.post("/dashboard/barcodes/import", function (req, res) {
         }
     }
 
+    //Excel to Json
     const result = excelToJson({
         sourceFile: newPath,
         sheets: [data.sheet],
@@ -62,8 +65,30 @@ app.post("/dashboard/barcodes/import", function (req, res) {
         columnToKey: newData
     });
 
-    console.log(result);
+    //Rename Keys Object result in array db
+    var keys = Object.keys(result[data.sheet][0]);
+    var db = [];
+    for (var i = 0; i < result[data.sheet].length; i++) {
+          db.push({
+            code:result[data.sheet][i][keys[0]],
+            name:result[data.sheet][i][keys[1]],
+            dependence:result[data.sheet][i][keys[2]],
+            headquarter:result[data.sheet][i][keys[3]]
+          });
+    }
+    delete result;
 
+    const ROOT_URL = 'http://localhost:3000';
+
+    for (var i = 0; i < db.length; i++) {
+        axios.post(`${ROOT_URL}/products`, db[i], )
+            .then(response => {
+              console.log("Success");
+            })
+            .catch(error => {
+              console.log(error);
+            });
+    }
 
     res.redirect("/dashboard/barcodes");
 });

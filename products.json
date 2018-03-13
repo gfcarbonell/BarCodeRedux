@@ -1,46 +1,1404 @@
 {
   "products": [
     {
-      "id": 1,
-      "code": "0000000000001",
-      "name": "PC",
-      "dependence": "Logistica H.",
-      "headquarters": "Main H"
+      "code": "112279700102",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 1
     },
     {
-      "code": "0000000000002",
-      "name": "TABLET",
-      "dependence": "LOGÍSTICA",
-      "headquarter": "CENTRAL",
+      "code": "112279700103",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
       "id": 2
     },
     {
-      "code": "0000000000003",
-      "name": "TELEFONO",
-      "dependence": "CHINCHA",
-      "headquarter": "ICA",
+      "code": "112279700104",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
       "id": 3
     },
     {
-      "code": "0000000000004",
-      "name": "CELLPHONE",
-      "dependence": "LOGISTICA",
-      "headquarter": "CHINCHA",
+      "code": "112279700105",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
       "id": 4
     },
     {
-      "code": "0000000000015",
-      "name": "LAPICERO",
-      "dependence": "LOGISTICA",
-      "headquarter": "PRINCIPAL",
+      "code": "112279700106",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
       "id": 5
     },
     {
-      "code": "0000000000006",
-      "name": "VASO",
-      "dependence": "LOGISTICA",
-      "headquarter": "CHINCHA",
+      "code": "112279700107",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
       "id": 6
+    },
+    {
+      "code": "112279700108",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 7
+    },
+    {
+      "code": "112279700109",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 8
+    },
+    {
+      "code": "112279700110",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 9
+    },
+    {
+      "code": "112279700111",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 10
+    },
+    {
+      "code": "112279700112",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 11
+    },
+    {
+      "code": "112279700113",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 12
+    },
+    {
+      "code": "112279700114",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 13
+    },
+    {
+      "code": "112279700115",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 14
+    },
+    {
+      "code": "112279700116",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 15
+    },
+    {
+      "code": "112279700117",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 16
+    },
+    {
+      "code": "112279700120",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 17
+    },
+    {
+      "code": "112279700121",
+      "name": "VENTILADOR ELECTRICO PARA MESA O DE PIE",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 18
+    },
+    {
+      "code": "462252150173",
+      "name": "ESTABILIZADOR",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 19
+    },
+    {
+      "code": "462282280007",
+      "name": "REFLECTOR",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 20
+    },
+    {
+      "code": "462282280008",
+      "name": "REFLECTOR",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 21
+    },
+    {
+      "code": "536495690010",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 22
+    },
+    {
+      "code": "536495690011",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 23
+    },
+    {
+      "code": "536495690012",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 24
+    },
+    {
+      "code": "536495690013",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 25
+    },
+    {
+      "code": "536495690014",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 26
+    },
+    {
+      "code": "536495690015",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 27
+    },
+    {
+      "code": "536495690016",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 28
+    },
+    {
+      "code": "536495690017",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 29
+    },
+    {
+      "code": "536495690018",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 30
+    },
+    {
+      "code": "536495690019",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 31
+    },
+    {
+      "code": "536495690020",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 32
+    },
+    {
+      "code": "536495690021",
+      "name": "SILLA PARA NIÑO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 33
+    },
+    {
+      "code": "746449320076",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 34
+    },
+    {
+      "code": "746449320077",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 35
+    },
+    {
+      "code": "746449320078",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 36
+    },
+    {
+      "code": "746449320079",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 37
+    },
+    {
+      "code": "746449320080",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 38
+    },
+    {
+      "code": "746449320081",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 39
+    },
+    {
+      "code": "746449320082",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 40
+    },
+    {
+      "code": "746449320083",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 41
+    },
+    {
+      "code": "746449320084",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 42
+    },
+    {
+      "code": "746449320085",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 43
+    },
+    {
+      "code": "746449320086",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 44
+    },
+    {
+      "code": "746449320087",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 45
+    },
+    {
+      "code": "746449320088",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 46
+    },
+    {
+      "code": "746449320089",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 47
+    },
+    {
+      "code": "746449320090",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 48
+    },
+    {
+      "code": "746449320091",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 49
+    },
+    {
+      "code": "746449320092",
+      "name": "MESA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 50
+    },
+    {
+      "code": "746450560005",
+      "name": "MESA DE MELAMINA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 51
+    },
+    {
+      "code": "746450560006",
+      "name": "MESA DE MELAMINA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 52
+    },
+    {
+      "code": "746450560007",
+      "name": "MESA DE MELAMINA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 53
+    },
+    {
+      "code": "746481190331",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 54
+    },
+    {
+      "code": "746481190332",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 55
+    },
+    {
+      "code": "746481190333",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 56
+    },
+    {
+      "code": "746481190334",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 57
+    },
+    {
+      "code": "746481190335",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 58
+    },
+    {
+      "code": "746481190336",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 59
+    },
+    {
+      "code": "746481190337",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 60
+    },
+    {
+      "code": "746481190338",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 61
+    },
+    {
+      "code": "746481190339",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 62
+    },
+    {
+      "code": "746481190340",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 63
+    },
+    {
+      "code": "746481190341",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 64
+    },
+    {
+      "code": "746481190342",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 65
+    },
+    {
+      "code": "746481190343",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 66
+    },
+    {
+      "code": "746481190344",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 67
+    },
+    {
+      "code": "746481190345",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 68
+    },
+    {
+      "code": "746481190346",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 69
+    },
+    {
+      "code": "746481190347",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 70
+    },
+    {
+      "code": "746481190348",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 71
+    },
+    {
+      "code": "746481190349",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 72
+    },
+    {
+      "code": "746481190350",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 73
+    },
+    {
+      "code": "746481190351",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 74
+    },
+    {
+      "code": "746481190352",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 75
+    },
+    {
+      "code": "746481190353",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 76
+    },
+    {
+      "code": "746481190354",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 77
+    },
+    {
+      "code": "746481190355",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 78
+    },
+    {
+      "code": "746481190356",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 79
+    },
+    {
+      "code": "746481190357",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 80
+    },
+    {
+      "code": "746481190358",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 81
+    },
+    {
+      "code": "746481190359",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 82
+    },
+    {
+      "code": "746481190360",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 83
+    },
+    {
+      "code": "746481190361",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 84
+    },
+    {
+      "code": "746481190362",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 85
+    },
+    {
+      "code": "746481190363",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 86
+    },
+    {
+      "code": "746481190364",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 87
+    },
+    {
+      "code": "746481190365",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 88
+    },
+    {
+      "code": "746481190366",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 89
+    },
+    {
+      "code": "746481190367",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 90
+    },
+    {
+      "code": "746481190368",
+      "name": "SILLA FIJA DE MADERA",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 91
+    },
+    {
+      "code": "746481870123",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 92
+    },
+    {
+      "code": "746481870124",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 93
+    },
+    {
+      "code": "746481870125",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 94
+    },
+    {
+      "code": "746481870126",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 95
+    },
+    {
+      "code": "746481870127",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 96
+    },
+    {
+      "code": "746481870128",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 97
+    },
+    {
+      "code": "746481870129",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 98
+    },
+    {
+      "code": "746481870130",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 99
+    },
+    {
+      "code": "746481870131",
+      "name": "SILLA FIJA DE METAL",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 100
+    },
+    {
+      "code": "746482550131",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 101
+    },
+    {
+      "code": "746482550132",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 102
+    },
+    {
+      "code": "746482550133",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 103
+    },
+    {
+      "code": "746482550134",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 104
+    },
+    {
+      "code": "746482550135",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 105
+    },
+    {
+      "code": "746482550136",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 106
+    },
+    {
+      "code": "746482550137",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 107
+    },
+    {
+      "code": "746482550138",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 108
+    },
+    {
+      "code": "746482550139",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 109
+    },
+    {
+      "code": "746482550140",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 110
+    },
+    {
+      "code": "746482550141",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 111
+    },
+    {
+      "code": "746482550142",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 112
+    },
+    {
+      "code": "746482550143",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 113
+    },
+    {
+      "code": "746482550144",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 114
+    },
+    {
+      "code": "746482550145",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 115
+    },
+    {
+      "code": "746482550146",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 116
+    },
+    {
+      "code": "746482550147",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 117
+    },
+    {
+      "code": "746482550148",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 118
+    },
+    {
+      "code": "746482550149",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 119
+    },
+    {
+      "code": "746482550150",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 120
+    },
+    {
+      "code": "746482550151",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 121
+    },
+    {
+      "code": "746482550152",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 122
+    },
+    {
+      "code": "746482550153",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 123
+    },
+    {
+      "code": "746482550154",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 124
+    },
+    {
+      "code": "746482550155",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 125
+    },
+    {
+      "code": "746482550156",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 126
+    },
+    {
+      "code": "746482550157",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 127
+    },
+    {
+      "code": "746482550158",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 128
+    },
+    {
+      "code": "746482550159",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 129
+    },
+    {
+      "code": "746482550160",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 130
+    },
+    {
+      "code": "746482550161",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 131
+    },
+    {
+      "code": "746482550162",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 132
+    },
+    {
+      "code": "746482550163",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 133
+    },
+    {
+      "code": "746482550164",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 134
+    },
+    {
+      "code": "746482550165",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 135
+    },
+    {
+      "code": "746482550166",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 136
+    },
+    {
+      "code": "746482550167",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 137
+    },
+    {
+      "code": "746482550168",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 138
+    },
+    {
+      "code": "746482550169",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 139
+    },
+    {
+      "code": "746482550170",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 140
+    },
+    {
+      "code": "746482550171",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 141
+    },
+    {
+      "code": "746482550172",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 142
+    },
+    {
+      "code": "746482550173",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 143
+    },
+    {
+      "code": "746482550174",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 144
+    },
+    {
+      "code": "746482550175",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 145
+    },
+    {
+      "code": "746482550176",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 146
+    },
+    {
+      "code": "746482550177",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 147
+    },
+    {
+      "code": "746482550178",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 148
+    },
+    {
+      "code": "746482550179",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 149
+    },
+    {
+      "code": "746482550180",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 150
+    },
+    {
+      "code": "746482550181",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 151
+    },
+    {
+      "code": "746482550182",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 152
+    },
+    {
+      "code": "746482550183",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 153
+    },
+    {
+      "code": "746482550184",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 154
+    },
+    {
+      "code": "746482550185",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 155
+    },
+    {
+      "code": "746482550186",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 156
+    },
+    {
+      "code": "746482550187",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 157
+    },
+    {
+      "code": "746482550188",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 158
+    },
+    {
+      "code": "746482550189",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 159
+    },
+    {
+      "code": "746482550190",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 160
+    },
+    {
+      "code": "746482550191",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 161
+    },
+    {
+      "code": "746482550192",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 162
+    },
+    {
+      "code": "746482550193",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 163
+    },
+    {
+      "code": "746482550194",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 164
+    },
+    {
+      "code": "746482550195",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 165
+    },
+    {
+      "code": "746482550196",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 166
+    },
+    {
+      "code": "746482550197",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 167
+    },
+    {
+      "code": "746482550198",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 168
+    },
+    {
+      "code": "746482550199",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 169
+    },
+    {
+      "code": "746482550200",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 170
+    },
+    {
+      "code": "746482550201",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 171
+    },
+    {
+      "code": "746482550202",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 172
+    },
+    {
+      "code": "746482550203",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 173
+    },
+    {
+      "code": "746482550204",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 174
+    },
+    {
+      "code": "746482550205",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 175
+    },
+    {
+      "code": "746482550206",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 176
+    },
+    {
+      "code": "746482550207",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 177
+    },
+    {
+      "code": "746482550208",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 178
+    },
+    {
+      "code": "746482550209",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 179
+    },
+    {
+      "code": "746482550210",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 180
+    },
+    {
+      "code": "746482550211",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 181
+    },
+    {
+      "code": "746482550212",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 182
+    },
+    {
+      "code": "746482550213",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 183
+    },
+    {
+      "code": "746482550214",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 184
+    },
+    {
+      "code": "746482550215",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 185
+    },
+    {
+      "code": "746482550216",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 186
+    },
+    {
+      "code": "746482550217",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 187
+    },
+    {
+      "code": "746482550218",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 188
+    },
+    {
+      "code": "746482550219",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 189
+    },
+    {
+      "code": "746482550220",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 190
+    },
+    {
+      "code": "746482550221",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 191
+    },
+    {
+      "code": "746482550222",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 192
+    },
+    {
+      "code": "746482550223",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 193
+    },
+    {
+      "code": "746482550224",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 194
+    },
+    {
+      "code": "746482550225",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 195
+    },
+    {
+      "code": "746482550226",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 196
+    },
+    {
+      "code": "746482550227",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 197
+    },
+    {
+      "code": "746482550228",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 198
+    },
+    {
+      "code": "746482550229",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 199
+    },
+    {
+      "code": "746482550230",
+      "name": "SILLA FIJA DE PLASTICO",
+      "dependence": "BIENES EN PRESTAMO, CUSTODIA Y NO DEPRECIABLES",
+      "headquarter": "SEDE PRINCIPAL",
+      "id": 200
     }
   ]
 }
