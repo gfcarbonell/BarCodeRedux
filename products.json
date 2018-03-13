@@ -34,6 +34,13 @@
       "dependence": "LOGISTICA",
       "headquarter": "PRINCIPAL",
       "id": 5
+    },
+    {
+      "code": "0000000000006",
+      "name": "VASO",
+      "dependence": "LOGISTICA",
+      "headquarter": "CHINCHA",
+      "id": 6
     }
   ]
 }

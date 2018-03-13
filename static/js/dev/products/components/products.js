@@ -104,6 +104,7 @@ class ProductList extends React.Component {
                   data={products}
                   columns={columns}
                   items_by_page={5}
+                  filterable={true}
                   paginate={true}>
               </ReactTable>
           </div>

@@ -36,6 +36,7 @@ class Accept extends React.Component {
   }
 
   onFilesError(error, file) {
+    $("#error").text('error code ' + error.code + ': ' + error.message);
     console.log('error code ' + error.code + ': ' + error.message)
   }
 
@@ -44,12 +45,8 @@ class Accept extends React.Component {
     let self = this;
     let file = self.refs.file_excel;
 
-    //formData.set("name", self.refs.name.value);
-    //formData.set("dependence", self.refs.dependence.value);
-    //formData.set("headquarter", self.refs.headquarter.value);
-    //formData.set("file", file.state.files[0]);
-
     let data = {
+      "sheet":self.refs.sheet.value,
       "code": {
         "letter": self.refs.letter_column_code.value,
         "name": self.refs.name_column_code.value
@@ -67,6 +64,7 @@ class Accept extends React.Component {
         "name": self.refs.name_column_headquarter.value
       }
     }
+    //Use for in data more files
     var formData = new FormData();
 
     formData.set("data", JSON.stringify(data));
@@ -113,6 +111,7 @@ class Accept extends React.Component {
 
               <div className="container">
                     <h6>Accepted files</h6>
+                    <p className="error" id="error">  </p>
               </div>
               <div>
                   <div className="row">
@@ -129,7 +128,7 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                         <legend> <i className="material-icons prefix">code</i> Column Code :</legend>
                         <div className="input-field col s12 m4 l4">
-                            <input id="letter_column_code" type="text" className="validate" ref="letter_column_code" />
+                            <input id="letter_column_code" type="text" className="validate text-uppercase" ref="letter_column_code" />
                             <label for="letter_column_code"> Letter </label>
                         </div>
                         <div className="input-field col s12 m8 l8">
@@ -143,7 +142,7 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                           <legend> <i className="material-icons prefix">developer_board</i> Column Name :</legend>
                           <div className="input-field col s12 m4 l4">
-                              <input id="letter_column_name" type="text" className="validate" ref="letter_column_name" />
+                              <input id="letter_column_name" type="text" className="validate text-uppercase" ref="letter_column_name" />
                               <label for="letter_column_name"> Letter </label>
                           </div>
                           <div className="input-field col s12 m8 l8">
@@ -159,7 +158,7 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                         <legend> <i className="material-icons prefix">home</i> Column Dependence :</legend>
                         <div className="input-field col s12 m4 l4">
-                            <input id="letter_column_dependence" type="text" className="validate" ref="letter_column_dependence" />
+                            <input id="letter_column_dependence" type="text" className="validate text-uppercase" ref="letter_column_dependence" />
                             <label for="letter_column_dependence"> Letter </label>
                         </div>
                         <div className="input-field col s12 m8 l8">
@@ -173,7 +172,7 @@ class Accept extends React.Component {
                       <div className="col s12 m12 l6">
                         <legend><i className="material-icons prefix">business</i>  Column Headquarter :</legend>
                         <div className="input-field col s12 m4 l4">
-                            <input id="letter_column_headquarter" type="text" className="validate" ref="letter_column_headquarter" />
+                            <input id="letter_column_headquarter" type="text" className="validate text-uppercase" ref="letter_column_headquarter" />
                             <label for="letter_column_headquarter"> Letter </label>
                         </div>
                         <div className="input-field col s12 m8 l8">

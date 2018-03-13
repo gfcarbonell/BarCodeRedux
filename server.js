@@ -55,6 +55,7 @@ app.post("/dashboard/barcodes/import", function (req, res) {
 
     const result = excelToJson({
         sourceFile: newPath,
+        sheets: [data.sheet],
         header:{
             rows: 1
         },
